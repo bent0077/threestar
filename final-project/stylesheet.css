@@ -310,7 +310,6 @@ bottom: 20px
         
         padding: auto;
         margin: auto;
-        max-width: 1200px;
         align-items: center;
     }
     .container{
@@ -323,11 +322,7 @@ bottom: 20px
        text-decoration: none;
        color:#c78c06
    }
-   img{
-    
-      
-      
-   }
+   
    .stars{
        width: 100px;
        position: relative;
@@ -363,7 +358,7 @@ bottom: 20px
    header{
        background-image: url(img/main-banner.jpg) ;
        background-repeat: no-repeat;
-       padding-bottom: 600px;
+       padding-bottom: 100px;
     
    }
    header a{
@@ -386,44 +381,124 @@ bottom: 20px
        padding: 1rem 1rem;
        position: relative;
         top: 50px;
+        bottom:50px;
    margin-left: 10px;
    margin-bottom: 10px;    
    }
     
+   /***************************about us**********************/
    
-   
-    
-.about {
-    margin: 30px;
-    padding: 0px;
+#section-a img{
+    margin: 10px;
+    padding: 10px;
     float: left;
-   width: 50%;
+   width:400px;
+   bottom:10px
+
+}    
+
+#section-a .par{
+font-size: 17px;
+line-height: 15px;
+}
+    
+
+.content-wrap{
+   text-transform: capitalize;
+   -ms-flex-align: center;
+ background-color: #ffe6ac;
+ 
 }
 /*****services*******/
 
 
 
 #section-b{
-display:inline;
+max-width: 1200px;
+margin-right: auto;
+margin-left: auto;
+padding-right: -100px;
+padding-top: 0px;
+}
+#section-b h3{
+    font-size: 40px;
+}
+.row1{
+
+    width: 550px;
 }
 .service1{
-    margin: 10%;
-    width: 300px;
+    float:left;
+    text-align: left;
+    width: 550px;
+    padding: 0%;
+    margin-left: 10px;
+    
+    
 }
 
+.row2{
+    width: 550px;
+}
 .service2{
-    margin: 10%;
-    width: 300px;
+    float:right;
+    text-align: left;
+    width: 550px;
+    padding: 0%;
+    margin-left: 10px;
+    
+    
 }
 
+.row3{
+
+    height: 290px;
+    width: 350px;
+    padding:0%;
+}
 .service3{
+
+    text-align: left;
+    width: 350px;
+    height: auto;
+    padding: 0px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+.row4{
+    height: 290px;
+    width: 350px;
+    margin: auto;
+    padding:0%;
+}
+.service4{
+    text-align: left;
     margin: 10%;
-    width: 300px;
+    width: 350px;
+    padding-right: 0px;
+    display: inline-block;
+    bottom: 200px;
 }
 
-.service4{
-    margin: 10%;
-    width: 300px;
+.row5{
+    height: 290px;
+    width: 350px;
+    margin: auto;
+    padding:0%;
 }
+.service5{
+    text-align: left;
+    width: 350px;
+    background-color: #ffe6ac;
+    display: inline-block; 
 }
-  
+.john{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.john h3{
+position: relative;
+}
+
+}
